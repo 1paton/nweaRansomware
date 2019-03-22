@@ -16,7 +16,7 @@ moving all desktop files into it, and creating a new disk image with a predeterm
 erasing all data.
 4. These versions of nweaRansomware will not be available to the public
 
-## What has been modified?:
+## What has been modified:
 Nothing, only eight lines of code have been added.
 Code added to "QuitProcesses.applescript":
 
@@ -41,7 +41,7 @@ Sadly NWEA has done a horrible job of securing their code, making it easy to con
 into simple Ransomeware. The Sparkle framework, which includes a function to check if code has been
 changed, fails to prevent the program from launching.
 
-## Is it detectable by anti-virus programs?:
+## Is it detectable by anti-virus programs:
 No it is not, no anti-virus has stopped it from running or marked it as malware.
 MacOS does not give any warnings, as soon as the application is launched,
 the text box asking for a key will appear.
