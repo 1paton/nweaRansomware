@@ -1,0 +1,27 @@
+<!-- Progress indicator by Hawkman. http://www.phantomgorilla.com/ -->
+<!-- based on  Apple's NSProgressIndicator in OS X. http://www.apple.com/ -->
+<!-- tested in Safari 2.0.3, FireFox (Mac) 1.0.7, IE:Mac -->
+
+<!-- This is all the HTML you'll need. You should incorporate it into your own files. You'll also need the included "progress indicator.css" and "progress indicator.js" (either referenced as below or incorporated into your files). I'd appreciate it if you leave my name at the top of the section, but there's no compulsion; this is free code! -->
+
+<html>
+<head>
+
+<!-- Progress indicator by Hawkman. http://www.phantomgorilla.com/ -->
+<!-- based on  Apple's NSProgressIndicator in OS X. http://www.apple.com/ -->
+
+<!-- import the progress indicator stylesheet, only one line to make sure it's hidden at startup -->
+<link rel="stylesheet" type="text/css" href="progress indicator.css" media="all">
+
+<!-- load the progress indicator javascript file. Seems that FireFox needs the closing script tag, even in this circumstance. -->
+<script type='text/javascript' src='progress indicator.js' charset='utf-8'/></script>
+
+</head>
+
+<body>
+
+<!-- progress indicator image. id can be anything, so long as you make sure you specify it is the second parameter when calling startProgressIndicator(); default value if none is specified is "progress_indicator". src can be set to anything - it's hidden by CSS, and is updated before it's revealed - but FireFox requires it to be set to _something_ -->
+<img id="progress_indicator" alt="progress indicator" src="images/indicator_small_0.png">
+
+</body>
+</html>

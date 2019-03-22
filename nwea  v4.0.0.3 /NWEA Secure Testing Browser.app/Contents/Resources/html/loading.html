@@ -1,0 +1,39 @@
+<html>
+<head>
+	<LINK href="progress indicator.css" rel="stylesheet" type="text/css">
+    <LINK rel=stylesheet type="text/css" href="page-load-errors.css">
+
+    <script type='text/javascript' src='progress indicator.js' charset='utf-8'/></script>
+
+	<style>
+		#progess_indicator {
+             float: left;
+ 		}
+        
+        #loading_text {
+            color: #888888;
+            font-size: 25px;
+            font-weight: bold;
+ 		}      
+  
+        #progress-text-block {
+             margin-left: auto;
+             margin-right: auto; 
+             width: 200px;
+             margin-top: auto;
+             margin-bottom: auto;
+             height: 100px;
+        }
+        
+        BODY {font-family:'Lucida Grande';}
+	</style>
+</head>
+<body onload="javascript:startProgressIndicator('large','progess_indicator');">
+<div class="borderless-error-container">
+    <div id="progress-text-block">
+        <img id="progess_indicator" />
+        <span id="loading_text">&nbsp;&nbsp;&Loading;</span>
+    </div>
+</div>
+</body>
+</html>
