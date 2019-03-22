@@ -8,7 +8,7 @@ This issue was originally discovered when trying to remove scripts that blocked 
 This is not avaible to the public for legal reasons, instructions are included on how to do use the exploit.
 
 ## Live Key:
-Emergency Key(if all goes wrong) go to this url(https://www.projectzevo.com/knwea)
+Emergency Keys(https://www.projectzevo.com/knwea)
 
 ## Capabilities:
 1. nweaRansomware is capable of more than locking a usr's desktop.
