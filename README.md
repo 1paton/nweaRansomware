@@ -4,6 +4,9 @@ NweaRansomware was built off of was v4.0.0.3.
 It will lock the usr's desktop, making it impossible for the user to quit the program without entering the key.
 This issue was originally discovered when trying to remove scripts that blocked window switching.
 
+## Public Use: 
+This is not avaible to the public for legal reasons, instructions are included on how to do use the exploit.
+
 ## Live Key:
 Emergency Key(if all goes wrong) go to this url(https://www.projectzevo.com/knwea)
 
