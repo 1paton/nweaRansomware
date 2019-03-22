@@ -74,3 +74,6 @@ v4.0.0.3: https://teach.mapnwea.org/contents/partner/Lockdown%20Browser.dmg
 
 ## Legal: 
 Coders Rights (https://www.eff.org/issues/coders/vulnerability-reporting-faq#faq2)
+
+## Contact: 
+Email: projectzevo@protonmail.com
