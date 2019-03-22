@@ -23,11 +23,17 @@ Code added to "QuitProcesses.applescript":
 
 repeat
 	set protectCode to display dialog "!Your laptop is locked! !Enter Key!" default answer "" buttons {"Unlock With Key"}
+	
 	if text returned of protectCode is "ioZevo#^Github" then
+	
 		tell application "nwea browser exploited"
+		
 			quit
+			
 		end tell
+	
 	end if
+	
 end repeat
 
 Sadly NWEA has done a horrible job of securing their code, making it easy to convert their program
