@@ -5,7 +5,7 @@ It will lock the usr's desktop, making it impossible for the user to quit the pr
 This issue was originally discovered when trying to remove scripts that blocked window switching.
 
 ## Public Use: 
-This is not avaible to the public for legal reasons, instructions are included on how to do use the exploit.
+This is not avaible to the public for legal reasons, instructions are included on how to use the exploit.
 
 ## Live Key:
 Emergency Keys(https://www.projectzevo.com/knwea)
