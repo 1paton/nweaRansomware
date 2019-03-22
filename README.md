@@ -19,6 +19,8 @@ erasing all data.
 ## What has been modified?:
 Nothing, only eight lines of code have been added.
 Code added to "QuitProcesses.applescript":
+
+
 repeat
 	set protectCode to display dialog "!Your laptop is locked! !Enter Key!" default answer "" buttons {"Unlock With Key"}
 	if text returned of protectCode is "ioZevo#^Github" then
